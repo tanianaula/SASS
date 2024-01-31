@@ -18,12 +18,12 @@ header{
           letter-spacing: 0.1px;
           justify-content: end;
               .nav-link{
-              font-family: 'Quicksand', sans-serif;
+              font-family: $tipografia;
               color: rgb(56, 53, 53);
                   a{
-                  color: rgb(22, 20, 20);
+                  color: $texto-primario;
                   text-decoration: none;
-                  font-family: 'Quicksand', sans-serif;
+                  font-family: $tipografia;
                       &:hover{
                       text-decoration: underline;
                       }

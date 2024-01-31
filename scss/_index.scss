@@ -8,8 +8,8 @@
 }
 
 h1{
-  color: rgb(22, 20, 20);
-  font-family: 'Quicksand', sans-serif;
+  color: $texto-primario;
+  font-family: $tipografia;
   font-size: 30px;
   font-weight: 600;
   margin-left: 40px;
@@ -22,20 +22,20 @@ h1{
 }
 
 h5{
-    font-family: 'Quicksand', sans-serif;
+    font-family: $tipografia;
     font-size: 30px;
     font-weight: 600;
 }
 
 p{
-    color: rgb(22, 20, 20);
-    font-family: 'Quicksand', sans-serif;
+    color: $texto-primario;
+    font-family: $tipografia;
     font-size: 16px;
 }
 
 .home .carousel p{
     color: aliceblue;
-    font-family: 'Quicksand', sans-serif;
+    font-family: $tipografia;
     font-size: 20px;
     font-weight: 350;
 }
@@ -116,8 +116,8 @@ div .bestsellers div{
    
 
 .acercade p{
-    color: rgb(22, 20, 20); 
-    font-family: 'Quicksand', sans-serif;
+    color: $texto-primario;
+    font-family: $tipografia;
     font-size: 16px;
     text-align: justify;
     margin-right:40px;
@@ -169,7 +169,7 @@ div .submit button:active{
     font-weight: 600;
     margin-left: 10px;
     margin-top: 40px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: $tipografia;
     font-size: 30px;
 }
 

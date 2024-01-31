@@ -4,11 +4,11 @@
 }
 
 .site-footer{
-    background-color: $fondo-primario;
+    background-color: $fondo-secundario;
     padding: 15px 0 15px;
     font-size: 15px;
     line-height: 24px;
-    color: #737373;
+    color: $texto-secundario;
         hr{
         border-top-color: #bbb;
         opacity: 0.5;
@@ -19,8 +19,8 @@
 }
 
 h6{
-    color: rgb(22, 20, 20);
-    font-family: 'Quickasnd', sans-serif;
+    color: $texto-primario;
+    font-family: $tipografia;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -29,10 +29,10 @@ h6{
 
 
 a{
-    color: #737373;
+    color: $fondo-secundario;
     text-decoration: none;
         &:hover{
-        color: rgb(22, 20, 20);
+        color: $texto-primario;
         text-decoration: underline;
         }
     }
@@ -43,10 +43,10 @@ a{
         li{
         display: block;
             a{
-            color: #737373;
+            color: $fondo-secundario;
             text-decoration: none;
                 &:active, &:focus, &:hover{
-                    color: rgb(22, 20, 20);
+                    color: $texto-primario;
                     text-decoration: underline;
                         &.inline li{
                             display: inline-block;
