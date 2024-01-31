@@ -1,0 +1,39 @@
+.novedades-img {
+    img{
+        width: 100%;
+    }
+
+    @media (min-width:768px){
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 50px;
+
+            img {
+                height: 260px;
+            }
+    }
+
+    @media (min-width:1024px){
+        img {
+            height: 500px;
+        }
+}
+    
+}
+
+.Nov1:hover, .Nov2:hover, .Nov3:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+div .novedades-img div{
+    &:first-child{
+        grid-area: Nov1;
+        &:nth-child(2){
+            grid-area: Nov2;
+                &:last-child{grid-area: Nov3
+                }
+        }
+    }
+}
