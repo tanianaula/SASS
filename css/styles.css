@@ -1,0 +1,457 @@
+/*header*/
+
+header {
+    flex-wrap: nowrap;
+    background-color: rgb(230, 233, 241);
+    padding: 6px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img {
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/*menú*/
+
+header .navbar{
+    background-color: rgb(230, 233, 241);
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    justify-content: end;
+}
+
+header .nav-link{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(56, 53, 53);
+}
+
+header a {
+    color: rgb(22, 20, 20);    
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+
+/*home*/
+
+.home {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.home img{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+/*h1*/
+
+h1 {
+    color: rgb(22, 20, 20);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.título{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+/*carrusel párrafos*/
+p {
+    color: rgb(22, 20, 20);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.home .carousel p{
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px; 
+    font-weight: 350;
+}
+
+/*novedades*/
+
+section .novedades-img {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:40px;
+    grid-template-columns: 
+    "Nov1 Nov2 Nov3";
+    justify-content: center;
+    gap: 30px
+}
+
+.novedades-img img{
+    width: 410px;
+    height: 450px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.Nov1:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Nov2:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Nov3:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div .novedades-img div:first-child{
+    grid-area: Nov1;
+}
+
+div .novedades-img div:nth-child(2){
+    grid-area: Nov2;
+}
+
+div .novedades-img div:last-child{
+    grid-area: Nov3;
+}
+
+/*bestsellers*/
+
+section .bestsellers {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:40px;
+    grid-template-columns: 
+    "Best1 Best2 Best3";
+    justify-content: center;
+    gap: 30px
+}
+
+.bestsellers img{
+    width: 410px;
+    height: 450px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.Best1:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Best2:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Best3:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div .bestsellers div:first-child{
+    grid-area: Best1;
+}
+
+div .bestsellers-img div:nth-child(2){
+    grid-area: Best2;
+}
+
+div .bestsellers div:last-child{
+    grid-area: Best3;
+}
+
+/*acerca de: nosotros*/
+
+.propósito img{
+    width: 400px;
+    height: 500px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.propósito p {
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.acercade p{
+    color: rgb(22, 20, 20);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.about .content ul li {
+    padding: 0 0 8px 26px;
+    position: relative;
+  }
+  
+.about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+  }
+
+
+/*suscríbete*/
+
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(230, 233, 241);
+    padding: 20px 20px;
+}
+
+
+.suscríbete-img img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 700px;
+}
+
+div .submit button:active{
+    background-color: rgb(185, 185, 216);
+    font-family: 'Quickasnd', sans-serif;  
+}
+
+.formulario{  
+    text-align:left;
+}
+
+.Prom1 {
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+.Correo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.submit{
+    margin-top: 0.5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/*información*/
+
+.info1 {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 30px
+}
+
+row .información{
+    margin-left: 40px;
+}
+
+.footer{
+    list-style: none;
+    margin-left: 10px;
+}
+
+#seccion-contacto-rrss {
+    display:flex;
+    flex-direction: row;
+    align-items: right;
+    gap: 5px;
+}
+
+#seccion-contacto-rrss img{
+    width: 35px;
+    margin-left: 40px;
+}
+
+.whatsapp {
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/*footer*/
+
+.site-footer{
+  background-color: rgb(235, 238, 246);
+  padding:15px 0 15px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small{
+  margin:20px 0
+}
+.site-footer h6{
+  color: rgb(22, 20, 20);
+  font-family: 'Quickasnd', sans-serif;    
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a{
+  color:#737373;
+}
+.site-footer a:hover{
+  color: rgb(22, 20, 20);
+  text-decoration:none;
+}
+.footer-links{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li{
+  display:block
+}
+.footer-links a{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+  color: rgb(22, 20, 20);
+  text-decoration:none;
+}
+.footer-links.inline li{
+  display:inline-block
+}
+
+.copyright-text{
+  margin:0
+}
+.redes-sociales img{
+    width:150px;
+    height:50px;
+    margin-left:140px;
+}
+@media (max-width:991px){
+  .site-footer [class^=col-]{
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px){
+  .site-footer{
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons{
+    text-align:center
+  }
+}
+
+/*queries de novedades*/
+@media (max-width:991px){
+    section .novedades-img {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 2;
+    }
+}
+
+@media (max-width:480px){
+    section .novedades-img {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 3;
+    }
+    .novedades-img img{
+        width: 360px;
+}
+}
+
+
+/*queries de bestsellers*/
+@media (max-width:991px){
+    section .bestsellers{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 2;
+    }
+}
+
+@media (max-width:480px){
+    section .bestsellers{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 3;
+    }
+    .bestsellers img{
+        width: 360px;
+}
+}
+
+/*queries de nosotros*/
+
+@media (max-width:480px){
+    .propósito img{
+        width: 360px;
+    }
+    .propósito p{
+        margin-left: 40px;
+    }
+    .propósito ul{
+        margin-left: 40px;
+    }
+}
+
+/*queries de contacto*/
+
+@media (max-width:991px){
+    .suscríbete-img img{
+        width: 700px;
+    }
+}
+
+@media (max-width:480px){
+    .newsletter img{
+        width: 360px;
+        height: 200;
+    }
+    .Prom1{
+        margin-top: 1px;
+    }
+}
+
+
+
+  
+ 
