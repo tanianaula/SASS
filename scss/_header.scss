@@ -1,6 +1,6 @@
 header{
     flex-wrap: nowrap;
-    background-color: rgb(230, 233, 241);
+    background-color: $fondo-primario;
     padding: 6px;
     position: sticky;
     top: 0;
@@ -13,7 +13,7 @@ header{
       margin-left: 30px;
       margin-bottom: 10px;
           .navbar{
-          background-color: rgb(230, 233, 241);
+          background-color: $fondo-primario;
           font-size: 18px;
           letter-spacing: 0.1px;
           justify-content: end;
