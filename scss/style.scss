@@ -1,6 +1,9 @@
-@import 'variables';
 
-@import 'header';
-@import 'index';
-@import 'footer';
+@import 'base/generales';
+@import 'base/variables';
 
+@import 'components/header';
+@import 'components/footer';
+@import 'components/bestsellers';
+
+@import 'pages/index';

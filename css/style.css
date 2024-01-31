@@ -1,4 +1,10 @@
 @charset "UTF-8";
+p {
+  color: rgb(22, 20, 20);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
 header {
   flex-wrap: nowrap;
   background-color: rgb(230, 233, 241);
@@ -32,6 +38,180 @@ header img .navbar .nav-link a {
 }
 header img .navbar .nav-link a:hover {
   text-decoration: underline;
+}
+
+.footer {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.site-footer {
+  background-color: rgb(235, 238, 246);
+  padding: 40px 0 15px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+h6 {
+  color: rgb(22, 20, 20);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #737373;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(22, 20, 20);
+  text-decoration: underline;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links li a {
+  color: #737373;
+  text-decoration: none;
+}
+.footer-links li a:active, .footer-links li a:focus, .footer-links li a:hover {
+  color: rgb(22, 20, 20);
+  text-decoration: underline;
+}
+.footer-links li a:active.inline li, .footer-links li a:focus.inline li, .footer-links li a:hover.inline li {
+  display: inline-block;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+.redes-sociales img {
+  width: 150px;
+  height: 50px;
+  margin-left: 140px;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center;
+  }
+}
+/*queries de novedades*/
+@media (max-width: 991px) {
+  section .novedades-img {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2;
+  }
+}
+@media (max-width: 480px) {
+  /*section .novedades-img {
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: 3;
+  }
+  .novedades-img img{
+  width: 360px;
+  }*/
+}
+/*queries de bestsellers*/
+/*@media (max-width:991px){
+    section .bestsellers{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2;
+    }
+}*/
+/*@media (max-width:480px){
+    section .bestsellers{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 3;
+    }
+    .bestsellers img{
+    width: 360px;
+    }
+}*/
+/*queries de nosotros*/
+@media (max-width: 480px) {
+  .propósito img {
+    width: 360px;
+  }
+  .propósito p {
+    margin-left: 40px;
+  }
+  .propósito ul {
+    margin-left: 40px;
+  }
+}
+/*queries de contacto*/
+@media (max-width: 991px) {
+  .suscríbete-img img {
+    width: 700px;
+  }
+}
+@media (max-width: 480px) {
+  .newsletter img {
+    width: 360px;
+    height: 200;
+  }
+  .Prom1 {
+    margin-top: 1px;
+  }
+}
+.bestsellers img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .bestsellers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+  .bestsellers img {
+    height: 260px;
+  }
+}
+@media (min-width: 1024px) {
+  .bestsellers img {
+    height: 500px;
+  }
+}
+
+.Best1:hover, .Best2:hover, .Best3:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+div .bestsellers div:first-child {
+  grid-area: Best1;
+}
+div .bestsellers div:first-child:nth-child(2) {
+  grid-area: Best2;
+}
+div .bestsellers div:first-child:nth-child(2):last-child {
+  grid-area: Best3;
 }
 
 .home {
@@ -76,15 +256,14 @@ p {
   font-weight: 350;
 }
 
-section .novedades-img {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: 40px;
-  grid-template-columns: "Nov1 Nov2 Nov3";
-  justify-content: center;
-  gap: 30px;
-}
-
+/*section .novedades-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+    //grid-template-columns: "Nov1 Nov2 Nov3";
+    justify-content: center;
+    gap: 30px;
+}*/
 .novedades-img img {
   width: 410px;
   height: 450px;
@@ -108,38 +287,37 @@ div .novedades-img div:first-child:nth-child(2):last-child {
   grid-area: Nov3;
 }
 
-section .bestsellers {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: 40px;
-  grid-template-columns: "Best1 Best2 Best3";
-  justify-content: center;
-  gap: 30px;
+/*section .bestsellers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+    grid-template-columns: "Best1 Best2 Best3";
+    justify-content: center;
+    gap: 30px;
+}*/
+/*.bestsellers img{
+    width: 410px;
+    height: 450px;
+    overflow: hidden;
+    transition: .5s;
 }
 
-.bestsellers img {
-  width: 410px;
-  height: 450px;
-  overflow: hidden;
-  transition: 0.5s;
+.Best1:hover, .Best2:hover, .Best3:hover{ 
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-.Best1:hover, .Best2:hover, .Best3:hover {
-  transform: scale(1.02);
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-div .bestsellers div:first-child {
-  grid-area: Best1;
-}
-div .bestsellers div:first-child:nth-child(2) {
-  grid-area: Best2;
-}
-div .bestsellers div:first-child:nth-child(2):last-child {
-  grid-area: Best3;
-}
-
+div .bestsellers div{
+    &:first-child{
+        grid-area: Best1;
+        &:nth-child(2){
+            grid-area: Best2;
+                &:last-child{grid-area: Best3
+                }
+        }
+    }
+}*/
 .propósito img {
   width: 400px;
   height: 500px;
@@ -239,146 +417,6 @@ row .información {
   position: fixed;
   bottom: 10px;
   right: 20px;
-}
-
-.footer {
-  list-style: none;
-  margin-left: 10px;
-}
-
-.site-footer {
-  background-color: rgb(235, 238, 246);
-  padding: 40px 0 15px;
-  font-size: 15px;
-  line-height: 24px;
-  color: #737373;
-}
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5;
-}
-.site-footer hr.small {
-  margin: 20px 0;
-}
-
-h6 {
-  color: rgb(22, 20, 20);
-  font-family: "Quicksand", sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 2px;
-}
-
-a {
-  color: #737373;
-  text-decoration: none;
-}
-a:hover {
-  color: rgb(22, 20, 20);
-  text-decoration: underline;
-}
-
-.footer-links {
-  padding-left: 0;
-  list-style: none;
-}
-.footer-links li {
-  display: block;
-}
-.footer-links li a {
-  color: #737373;
-  text-decoration: none;
-}
-.footer-links li a:active, .footer-links li a:focus, .footer-links li a:hover {
-  color: rgb(22, 20, 20);
-  text-decoration: underline;
-}
-.footer-links li a:active.inline li, .footer-links li a:focus.inline li, .footer-links li a:hover.inline li {
-  display: inline-block;
-}
-
-.copyright-text {
-  margin: 0;
-}
-
-.redes-sociales img {
-  width: 150px;
-  height: 50px;
-  margin-left: 140px;
-}
-
-@media (max-width: 991px) {
-  .site-footer [class^=col-] {
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .site-footer {
-    padding-bottom: 0;
-  }
-  .site-footer .copyright-text, .site-footer .social-icons {
-    text-align: center;
-  }
-}
-/*queries de novedades*/
-@media (max-width: 991px) {
-  section .novedades-img {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 2;
-  }
-}
-@media (max-width: 480px) {
-  section .novedades-img {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 3;
-  }
-  .novedades-img img {
-    width: 360px;
-  }
-}
-/*queries de bestsellers*/
-@media (max-width: 991px) {
-  section .bestsellers {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 2;
-  }
-}
-@media (max-width: 480px) {
-  section .bestsellers {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 3;
-  }
-  .bestsellers img {
-    width: 360px;
-  }
-}
-/*queries de nosotros*/
-@media (max-width: 480px) {
-  .propósito img {
-    width: 360px;
-  }
-  .propósito p {
-    margin-left: 40px;
-  }
-  .propósito ul {
-    margin-left: 40px;
-  }
-}
-/*queries de contacto*/
-@media (max-width: 991px) {
-  .suscríbete-img img {
-    width: 700px;
-  }
-}
-@media (max-width: 480px) {
-  .newsletter img {
-    width: 360px;
-    height: 200;
-  }
-  .Prom1 {
-    margin-top: 1px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

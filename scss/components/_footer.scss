@@ -90,25 +90,25 @@ a{
 }
       
 @media (max-width:480px){
-    section .novedades-img {
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 3;
-}
+    /*section .novedades-img {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 3;
+    }
     .novedades-img img{
     width: 360px;
-    }
+    }*/
 }
       
       
 /*queries de bestsellers*/
-    @media (max-width:991px){
+/*@media (max-width:991px){
     section .bestsellers{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 2;
     }
-}
+}*/
       
-@media (max-width:480px){
+/*@media (max-width:480px){
     section .bestsellers{
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: 3;
@@ -116,7 +116,7 @@ a{
     .bestsellers img{
     width: 360px;
     }
-}
+}*/
 
 /*queries de nosotros*/
       

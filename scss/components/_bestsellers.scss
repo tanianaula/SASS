@@ -1,0 +1,39 @@
+.bestsellers {
+    img{
+        width: 100%;
+    }
+
+    @media (min-width:768px){
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 50px;
+
+            img {
+                height: 260px;
+            }
+    }
+
+    @media (min-width:1024px){
+        img {
+            height: 500px;
+        }
+}
+    
+}
+
+.Best1:hover, .Best2:hover, .Best3:hover{ 
+    transform: scale(1.02);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div .bestsellers div{
+    &:first-child{
+        grid-area: Best1;
+        &:nth-child(2){
+            grid-area: Best2;
+                &:last-child{grid-area: Best3
+                }
+        }
+    }
+}

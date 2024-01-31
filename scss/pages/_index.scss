@@ -40,14 +40,14 @@ p{
     font-weight: 350;
 }
 
-section .novedades-img{
+/*section .novedades-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 40px;
-    grid-template-columns: "Nov1 Nov2 Nov3";
+    //grid-template-columns: "Nov1 Nov2 Nov3";
     justify-content: center;
     gap: 30px;
-}
+}*/
 
 .novedades-img img{ 
     width: 410px;
@@ -73,16 +73,16 @@ div .novedades-img div{
     }
 }
 
-section .bestsellers{
+/*section .bestsellers{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 40px;
     grid-template-columns: "Best1 Best2 Best3";
     justify-content: center;
     gap: 30px;
-}
+}*/
 
-.bestsellers img{
+/*.bestsellers img{
     width: 410px;
     height: 450px;
     overflow: hidden;
@@ -104,7 +104,7 @@ div .bestsellers div{
                 }
         }
     }
-}
+}*/
 
 .propósito
   img{
