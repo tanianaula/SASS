@@ -1,0 +1,152 @@
+.footer{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.site-footer{
+    background-color: rgb(235, 238, 246);
+    padding: 15px 0 15px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+        hr{
+        border-top-color: #bbb;
+        opacity: 0.5;
+            &.small{
+                margin: 20px 0
+            }
+        }
+}
+
+h6{
+    color: rgb(22, 20, 20);
+    font-family: 'Quickasnd', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+
+a{
+    color: #737373;
+    text-decoration: none;
+        &:hover{
+        color: rgb(22, 20, 20);
+        text-decoration: underline;
+        }
+    }
+
+.footer-links{
+    padding-left: 0;
+    list-style: none;
+        li{
+        display: block;
+            a{
+            color: #737373;
+            text-decoration: none;
+                &:active, &:focus, &:hover{
+                    color: rgb(22, 20, 20);
+                    text-decoration: underline;
+                        &.inline li{
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+    }
+
+.copyright-text{
+    margin:0
+}
+      
+.redes-sociales img{
+    width:150px;
+    height:50px;
+    margin-left:140px;
+}
+
+@media (max-width:991px){
+    .site-footer [class^=col-]{
+    margin-bottom:30px
+        }
+}
+
+@media (max-width:767px){
+    .site-footer{
+    padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons{
+    text-align:center
+    }
+}
+      
+/*queries de novedades*/
+@media (max-width:991px){
+    section .novedades-img {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2;
+    }
+}
+      
+@media (max-width:480px){
+    section .novedades-img {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 3;
+}
+    .novedades-img img{
+    width: 360px;
+    }
+}
+      
+      
+/*queries de bestsellers*/
+    @media (max-width:991px){
+    section .bestsellers{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2;
+    }
+}
+      
+@media (max-width:480px){
+    section .bestsellers{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 3;
+    }
+    .bestsellers img{
+    width: 360px;
+    }
+}
+
+/*queries de nosotros*/
+      
+@media (max-width:480px){
+    .propósito img{
+    width: 360px;
+    }
+    .propósito p{
+    margin-left: 40px;
+    }
+    .propósito ul{
+    margin-left: 40px;
+    }
+}
+      
+/*queries de contacto*/
+      
+@media (max-width:991px){
+    .suscríbete-img img{
+    width: 700px;
+    }
+}
+      
+@media (max-width:480px){
+    .newsletter img{
+    width: 360px;
+    height: 200;
+    }
+    .Prom1{
+    margin-top: 1px;
+    }
+}
+      
