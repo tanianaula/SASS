@@ -217,8 +217,7 @@ div .novedades-img div:first-child:nth-child(2):last-child {
 }
 
 .home {
-  margin-left: 40px;
-  margin-right: 40px;
+  width: 100%;
 }
 .home img {
   margin-top: 40px;
@@ -266,6 +265,7 @@ p {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
   text-align: justify;
+  margin-right: 15px;
 }
 
 .about .content ul {
