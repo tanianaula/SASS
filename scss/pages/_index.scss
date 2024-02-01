@@ -38,77 +38,11 @@ p{
     font-weight: 350;
 }
 
-/*section .novedades-img{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 40px;
-    //grid-template-columns: "Nov1 Nov2 Nov3";
-    justify-content: center;
-    gap: 30px;
-}*/
-
-/*.novedades-img img{ 
-    width: 410px;
-    height: 450px;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.Nov1:hover, .Nov2:hover, .Nov3:hover{
-    transform: scale(1.02);
-    cursor: pointer;
-    text-decoration:underline;
-}
-
-div .novedades-img div{
-    &:first-child{
-        grid-area: Nov1;
-        &:nth-child(2){
-            grid-area: Nov2;
-                &:last-child{grid-area: Nov3
-                }
-        }
-    }
-}
-
-/*section .bestsellers{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 40px;
-    grid-template-columns: "Best1 Best2 Best3";
-    justify-content: center;
-    gap: 30px;
-}*/
-
-/*.bestsellers img{
-    width: 410px;
-    height: 450px;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.Best1:hover, .Best2:hover, .Best3:hover{ 
-    transform: scale(1.02);
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-div .bestsellers div{
-    &:first-child{
-        grid-area: Best1;
-        &:nth-child(2){
-            grid-area: Best2;
-                &:last-child{grid-area: Best3
-                }
-        }
-    }
-}*/
 
 .propósito
   img{
     width: 400px;
     height: 500px;
-    margin-left: 40px;
     margin-bottom: 20px;
   }
    
@@ -118,7 +52,6 @@ div .bestsellers div{
     font-family: $tipografia;
     font-size: 16px;
     text-align: justify;
-    margin-right:40px;
 }
 
 .about .content ul{
@@ -145,10 +78,7 @@ div .bestsellers div{
 
 
 .suscríbete-img img{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    width: 600px;
+    width: 100%
 }
 
 
