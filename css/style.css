@@ -293,6 +293,14 @@ p {
 .suscríbete-img img {
   width: 100%;
 }
+@media (min-width: 1024px) {
+  .suscríbete-img img {
+    height: 390px;
+    width: 620px;
+    margin-left: 65px;
+    margin-top: 20px;
+  }
+}
 
 div .submit button:active {
   background-color: rgb(185, 185, 216);
