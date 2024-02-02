@@ -326,12 +326,24 @@ div .submit button:active {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 10px;
+  width: 50%;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
 }
 
 .submit {
   margin-top: 0.5px;
   margin-bottom: 20px;
   margin-left: 10px;
+}
+.submit button {
+  background: linear-gradient(to right, rgb(77, 98, 175), rgb(153, 153, 201));
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 100px;
 }
 
 .info1 {
