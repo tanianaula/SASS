@@ -6,6 +6,8 @@
     }
 }
 
+/*h1, h5 y p*/
+
 h1{
   color: $texto-primario;
   font-family: $tipografia;
@@ -37,6 +39,7 @@ p{
     font-weight: 350;
 }
 
+/*sección nosotros*/
 
 .propósito
   img{
@@ -68,13 +71,14 @@ p{
         }
 }
 
+/*sección contacto*/
+
 .newsletter{
     display: flex;
     flex-wrap: wrap;
     background-color: $fondo-primario;
     padding: 20px 20px;
 }
-
 
 .suscríbete-img{
     img{
@@ -89,7 +93,6 @@ p{
         }
 }
 }
-
 
 
 div .submit button:active{
@@ -145,6 +148,8 @@ row .información{
         margin-left: 40px;
         }
     }
+
+/*sticky img*/
 
 .whatsapp{
     width: 50px;

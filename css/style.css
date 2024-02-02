@@ -224,6 +224,7 @@ div .novedades-img div:first-child:nth-child(2):last-child {
   margin-bottom: 30px;
 }
 
+/*h1, h5 y p*/
 h1 {
   color: rgb(22, 20, 20);
   font-family: "Quicksand", sans-serif;
@@ -255,6 +256,7 @@ p {
   font-weight: 350;
 }
 
+/*sección nosotros*/
 .propósito img {
   width: 100%;
   margin-bottom: 20px;
@@ -283,6 +285,7 @@ p {
   top: -3px;
 }
 
+/*sección contacto*/
 .newsletter {
   display: flex;
   flex-wrap: wrap;
@@ -352,6 +355,7 @@ row .información {
   margin-left: 40px;
 }
 
+/*sticky img*/
 .whatsapp {
   width: 50px;
   position: fixed;
