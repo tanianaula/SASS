@@ -290,17 +290,15 @@ p {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(230, 233, 241);
-  padding: 20px 20px;
+  padding: 30px 50px;
 }
-
-.suscríbete-img img {
+.newsletter img {
   width: 100%;
 }
 @media (min-width: 1024px) {
-  .suscríbete-img img {
+  .newsletter img {
     height: 390px;
-    width: 630px;
-    margin-left: 65px;
+    width: 100%;
     margin-top: 20px;
   }
 }

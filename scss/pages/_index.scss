@@ -77,23 +77,16 @@ p{
     display: flex;
     flex-wrap: wrap;
     background-color: $fondo-primario;
-    padding: 20px 20px;
-}
-
-.suscríbete-img{
-    img{
-    width: 100%
-    }
-    @media (min-width:1024px){
-        img {
+    padding: 30px 50px;
+        img{
+        width: 100%;
+            @media (min-width: 1024px){
             height: 390px;
-            width: 630px;
-            margin-left: 65px;
+            width: 100%;
             margin-top: 20px;
         }
+    }
 }
-}
-
 
 div .submit button:active{
     background-color: rgb(185, 185, 216);
