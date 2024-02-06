@@ -290,7 +290,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(230, 233, 241);
-  padding: 30px 50px;
+  padding: 50px 50px;
 }
 .newsletter img {
   width: 100%;
@@ -299,7 +299,6 @@ p {
   .newsletter img {
     height: 390px;
     width: 100%;
-    margin-top: 20px;
   }
 }
 

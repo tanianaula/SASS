@@ -77,13 +77,12 @@ p{
     display: flex;
     flex-wrap: wrap;
     background-color: $fondo-primario;
-    padding: 30px 50px;
+    padding: 50px 50px;
         img{
         width: 100%;
             @media (min-width: 1024px){
             height: 390px;
             width: 100%;
-            margin-top: 20px;
         }
     }
 }
